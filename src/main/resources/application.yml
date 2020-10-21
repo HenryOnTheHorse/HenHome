@@ -1,0 +1,19 @@
+#项目名称
+spring:
+  application:
+    name: HenHome
+  profiles:
+    active: dev
+  activiti:
+    check-process-definitions: true
+    database-schema-update: true
+    process-definition-location-prefix: classpath:/processes/
+#process-definition-location-suffixes: #流程文件格式
+#  - **.bpmn20.xml
+#  - **.bpmn
+
+# 白名单
+com:
+  cty:
+    whiteIPs: 110.249.134.190,222.223.231.139,0:0:0:0:0:0:0:1
+
